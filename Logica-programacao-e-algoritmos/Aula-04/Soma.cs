@@ -1,0 +1,11 @@
+double x,y,t,r,soma;
+Console.WriteLine("digite o primeiro numero");
+x = double.Parse(Console.ReadLine());
+Console.WriteLine("digite o segundo numero");
+y = double.Parse(Console.ReadLine());
+Console.WriteLine("digite o terceiro numero");
+t = double.Parse(Console.ReadLine());
+Console.WriteLine("Digite o quarto numero");
+r = double.Parse(Console.ReadLine());
+soma = (x+y)+(t-r);
+Console.WriteLine("Soma =" + soma);
