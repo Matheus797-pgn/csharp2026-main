@@ -1,0 +1,14 @@
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\bin\Debug\net10.0\Resolvendo sem POO.exe
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\bin\Debug\net10.0\Resolvendo sem POO.deps.json
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\bin\Debug\net10.0\Resolvendo sem POO.runtimeconfig.json
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\bin\Debug\net10.0\Resolvendo sem POO.dll
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\bin\Debug\net10.0\Resolvendo sem POO.pdb
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\obj\Debug\net10.0\Resolvendo sem POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\obj\Debug\net10.0\Resolvendo sem POO.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\obj\Debug\net10.0\Resolvendo sem POO.AssemblyInfo.cs
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\obj\Debug\net10.0\Resolvendo sem POO.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\obj\Debug\net10.0\Resolvendo sem POO.dll
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\obj\Debug\net10.0\refint\Resolvendo sem POO.dll
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\obj\Debug\net10.0\Resolvendo sem POO.pdb
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\obj\Debug\net10.0\Resolvendo sem POO.genruntimeconfig.cache
+C:\Users\FIC\Documents\POO\aula 00\Resolvendo sem POO\Resolvendo sem POO\obj\Debug\net10.0\ref\Resolvendo sem POO.dll

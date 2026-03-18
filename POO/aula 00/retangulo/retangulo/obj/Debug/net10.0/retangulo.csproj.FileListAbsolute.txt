@@ -1,0 +1,14 @@
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\bin\Debug\net10.0\retangulo.exe
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\bin\Debug\net10.0\retangulo.deps.json
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\bin\Debug\net10.0\retangulo.runtimeconfig.json
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\bin\Debug\net10.0\retangulo.dll
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\bin\Debug\net10.0\retangulo.pdb
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\obj\Debug\net10.0\retangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\obj\Debug\net10.0\retangulo.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\obj\Debug\net10.0\retangulo.AssemblyInfo.cs
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\obj\Debug\net10.0\retangulo.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\obj\Debug\net10.0\retangulo.dll
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\obj\Debug\net10.0\refint\retangulo.dll
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\obj\Debug\net10.0\retangulo.pdb
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\obj\Debug\net10.0\retangulo.genruntimeconfig.cache
+C:\Users\FIC\Documents\POO\aula 00\retangulo\retangulo\obj\Debug\net10.0\ref\retangulo.dll
