@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FIC\\Documents\\repositorio\\POO\\Aula-02\\Aula-02\\Aula-02\\Aula-02.csproj",
-      "projectName": "Aula-02",
-      "projectPath": "C:\\Users\\FIC\\Documents\\repositorio\\POO\\Aula-02\\Aula-02\\Aula-02\\Aula-02.csproj",
+      "projectUniqueName": "C:\\Users\\FIC\\Documents\\repositorio\\POO\\Aula-02\\Aula-02\\Aula-02\\Terreno.cs.csproj",
+      "projectName": "Terreno.cs",
+      "projectPath": "C:\\Users\\FIC\\Documents\\repositorio\\POO\\Aula-02\\Aula-02\\Aula-02\\Terreno.cs.csproj",
       "packagesPath": "C:\\Users\\FIC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\FIC\\Documents\\repositorio\\POO\\Aula-02\\Aula-02\\Aula-02\\obj\\",
       "projectStyle": "PackageReference",
