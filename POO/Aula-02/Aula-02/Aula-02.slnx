@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Aula-02/terreno.cs.csproj" />
+  <Project Path="exemplo1/exemplo1.csproj" />
 </Solution>
