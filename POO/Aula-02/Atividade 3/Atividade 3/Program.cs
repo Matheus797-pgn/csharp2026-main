@@ -1,0 +1,15 @@
+﻿using Atividade_3;
+using static System.Console;
+Notas n = new Notas();
+Write("Digite Seu nome: ");
+n.nome = Console.ReadLine();
+Write("Digite a nota1: ");
+n.Nota1 = double.Parse(ReadLine());
+Write("Digite a nota2: ");
+n.Nota2 = double.Parse(ReadLine());
+Write("Digite a nota3: ");
+n.Nota3 = double.Parse(ReadLine());
+n.notas();
+n.resultado = n.Nota1 * n.Nota2 * n.Nota3;
+n.Result();
+n.Saidas();
