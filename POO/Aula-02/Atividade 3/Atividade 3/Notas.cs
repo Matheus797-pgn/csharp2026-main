@@ -22,7 +22,7 @@ namespace Atividade_3
         }
         public double Result()
         {
-            return resultado = Nota1 + Nota2 + Nota3 / 3;
+            return resultado = Nota1 + Nota2 + Nota3;
         }
         public void Saidas()
         {

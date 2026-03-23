@@ -10,6 +10,6 @@ n.Nota2 = double.Parse(ReadLine());
 Write("Digite a nota3: ");
 n.Nota3 = double.Parse(ReadLine());
 n.notas();
-n.resultado = n.Nota1 * n.Nota2 * n.Nota3;
+n.resultado = n.Nota1 + n.Nota2 + n.Nota3;
 n.Result();
 n.Saidas();
