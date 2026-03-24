@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\circuferencia01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\circuferencia01.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\circuferencia01.AssemblyInfo.cs
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\circuferencia01.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\circuferencia01.sourcelink.json
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\bin\Debug\net10.0\circuferencia01.exe
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\bin\Debug\net10.0\circuferencia01.deps.json
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\bin\Debug\net10.0\circuferencia01.runtimeconfig.json
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\bin\Debug\net10.0\circuferencia01.dll
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\bin\Debug\net10.0\circuferencia01.pdb
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\circuferencia01.dll
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\refint\circuferencia01.dll
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\circuferencia01.pdb
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\circuferencia01.genruntimeconfig.cache
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\circuferencia01\circuferencia01\obj\Debug\net10.0\ref\circuferencia01.dll
