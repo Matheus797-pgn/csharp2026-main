@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\banco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\banco.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\banco.AssemblyInfo.cs
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\banco.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\banco.sourcelink.json
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\bin\Debug\net10.0\banco.exe
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\bin\Debug\net10.0\banco.deps.json
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\bin\Debug\net10.0\banco.runtimeconfig.json
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\bin\Debug\net10.0\banco.dll
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\bin\Debug\net10.0\banco.pdb
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\banco.dll
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\refint\banco.dll
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\banco.pdb
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\banco.genruntimeconfig.cache
+C:\Users\FIC\Documents\repositorio\POO\Aula-02\banco\banco\obj\Debug\net10.0\ref\banco.dll
