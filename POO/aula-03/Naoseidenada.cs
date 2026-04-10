@@ -1,0 +1,9 @@
+{
+double x, y, media;
+Console.WriteLine("Digite o primeira numero ");
+x=double. Parse(Console.ReadLine());
+Console.WriteLine("Digite o segundo numero: ");
+y =double.Parse(Console.ReadLine());
+media = (x+y)/2.0;
+Console.WriteLine("Media = " + media);
+}

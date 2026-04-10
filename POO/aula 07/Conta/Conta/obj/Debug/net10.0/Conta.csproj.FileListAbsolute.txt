@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\bin\Debug\net10.0\Conta.exe
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\bin\Debug\net10.0\Conta.deps.json
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\bin\Debug\net10.0\Conta.runtimeconfig.json
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\bin\Debug\net10.0\Conta.dll
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\bin\Debug\net10.0\Conta.pdb
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\Conta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\Conta.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\Conta.AssemblyInfo.cs
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\Conta.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\Conta.sourcelink.json
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\Conta.dll
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\refint\Conta.dll
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\Conta.pdb
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\Conta.genruntimeconfig.cache
+C:\Users\FIC\Documents\Logica de programacao e algoritmos\aula 07 poo\Conta\Conta\obj\Debug\net10.0\ref\Conta.dll
