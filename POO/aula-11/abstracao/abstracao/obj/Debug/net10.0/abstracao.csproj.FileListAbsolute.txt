@@ -1,0 +1,15 @@
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\abstracao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\abstracao.AssemblyInfoInputs.cache
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\abstracao.AssemblyInfo.cs
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\abstracao.csproj.CoreCompileInputs.cache
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\abstracao.sourcelink.json
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\bin\Debug\net10.0\abstracao.exe
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\bin\Debug\net10.0\abstracao.deps.json
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\bin\Debug\net10.0\abstracao.runtimeconfig.json
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\bin\Debug\net10.0\abstracao.dll
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\bin\Debug\net10.0\abstracao.pdb
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\abstracao.dll
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\refint\abstracao.dll
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\abstracao.pdb
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\abstracao.genruntimeconfig.cache
+C:\Users\FIC\Documents\Curso_BackEnd\POO\aula-11\abstracao\abstracao\obj\Debug\net10.0\ref\abstracao.dll

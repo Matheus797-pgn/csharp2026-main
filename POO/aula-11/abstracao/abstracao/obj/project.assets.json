@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FIC\\Documents\\Curso_BackEnd\\POO\\aula 08\\Master\\Master\\Master.csproj",
-      "projectName": "Master",
-      "projectPath": "C:\\Users\\FIC\\Documents\\Curso_BackEnd\\POO\\aula 08\\Master\\Master\\Master.csproj",
+      "projectUniqueName": "C:\\Users\\FIC\\Documents\\Curso_BackEnd\\POO\\aula-11\\abstracao\\abstracao\\abstracao.csproj",
+      "projectName": "abstracao",
+      "projectPath": "C:\\Users\\FIC\\Documents\\Curso_BackEnd\\POO\\aula-11\\abstracao\\abstracao\\abstracao.csproj",
       "packagesPath": "C:\\Users\\FIC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FIC\\Documents\\Curso_BackEnd\\POO\\aula 08\\Master\\Master\\obj\\",
+      "outputPath": "C:\\Users\\FIC\\Documents\\Curso_BackEnd\\POO\\aula-11\\abstracao\\abstracao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
