@@ -14,7 +14,7 @@ namespace SistemaBancario.Classes.Entidades
         ///<summary>
         ///Taxa fixa cobrada em cada operação de saque
         ///<summary>
-        private const double taxaSaque = 5.00;
+        private const decimal taxaSaque = 5.00m;
 
 
         //propriedades
@@ -37,7 +37,7 @@ namespace SistemaBancario.Classes.Entidades
         ///Saldo atual da conta
         ///'private set' impede alteração direta - ´so pode mudar atraves de deposito ou saque
         ///</summary>
-        public double Saldo { get; private set; }
+        public decimal Saldo { get; private set; }
         //Construtores
         public Banco()
         {
@@ -51,13 +51,13 @@ namespace SistemaBancario.Classes.Entidades
         ///<param name="titular"
         
 
-        public Banco(int numeroConta, string titular, double saldo = 0)
+        public Banco(int numeroConta, string titular, decimal saldo = 0)
         {
             NumeroConta = numeroConta;
             Titular = titular;
             Saldo = saldo;
         }
-        public void Deposito(double valor)
+        public void Deposito(decimal valor)
         {
             if (valor <= 0)
             {
@@ -65,22 +65,41 @@ namespace SistemaBancario.Classes.Entidades
                 return;
             }
             Saldo += valor;
-            Console.WriteLine($"deposito de {valor:C} realizando com sucesso");{
+            Console.WriteLine($"deposito de {valor:C} realizando com sucesso");
+        }
             ///<summary>
             ///Realiz um saque na conta, Dimuindo o saldo
             ///Cobra automaticamente uma taxa de R$5.00 por saque
             ///IMPORTANTE: Permite saldo negativo se não houver fundos.
             ///</summary>
             ///<param name="valor">valor a ser sacado(deve ser positivo, não inclui a taxa)</param>
-            
-             public void Saque(double valor)
+
+             public void Saque(decimal valor)
+        {
+            if (valor <= 0)
             {
-                if(valor <= 0)
-                {
-                    Console.WriteLine("valor de saque deve ser positivo");
-                    return;
-                }
+                Console.WriteLine("valor de saque deve ser positivo");
+                return;
+            }
+            Saldo -= valor + taxaSaque;
+            Console.WriteLine($"Saque de {valor:C}realizado com sucesso taxa de {taxaSaque:C} cobrada");
+        }
+              ///<summary>
+              ///exibe dados da conta n console
+              ///mostra numero da conta, titular e saldo atual
+              ///</summary>
+              public void ExibirDados()
+        {
+            Console.WriteLine("\n dados da conta");
+            Console.WriteLine($"Conta : {NumeroConta}");
+            Console.WriteLine($"Titular {Titular}");
+            Console.WriteLine($"saldo {Saldo}");
+            Console.WriteLine("------------\n");
+        }
+
+
+
             }
         }
-    }
+    
 
