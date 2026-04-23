@@ -12,7 +12,7 @@ namespace SistemaBancario.Classes.bancoContexto
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // string verbatim: use uma única barra '\'
-            optionsBuilder.UseSqlServer("Data Source=BancoDb.db");
+            optionsBuilder.UseSqlServer(@"Server=ECFP507D1319380\SQLEXPRESS;Database=Banco;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
