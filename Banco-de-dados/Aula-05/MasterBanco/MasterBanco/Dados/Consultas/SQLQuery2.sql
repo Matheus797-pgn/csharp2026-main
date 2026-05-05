@@ -22,4 +22,5 @@ SELECT * FROM Contas
 ORDER BY Saldo ASC
 GO
 ---Contas quantas contas existe na tabela----
-SELECT SUM(Saldo) AS TotalContas FROM Contas
+SELECT SUM  (Saldo) AS TotalContas FROM Contas
+

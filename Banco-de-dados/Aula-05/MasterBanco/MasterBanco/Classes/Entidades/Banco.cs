@@ -7,8 +7,8 @@ namespace MasterBanco.Classes.Entidades
     {
         //campo
         private const decimal TaxaSaque = 5.00m;
-        
-        
+
+
         // --------- propriedades-------//
         public int ID { get; set; }
         public string Titular { get; set; }
@@ -34,13 +34,13 @@ namespace MasterBanco.Classes.Entidades
             string consulta = "INSERT INTO " +
                 "Contas(Titular,NumeroDaConta,Saldo)" +
                 "VALUES" +
-                "(@Titular, @NumeroDaConta,@Saldo)";
+                "(@Titular, @NumeroDaConta, @Saldo)";
             using (SqlConnection conexao = new SqlConnection(conectarCaminho))
             using (SqlCommand comando = new SqlCommand(consulta, conexao))
             {
-                comando.Parameters.AddWithValue("@Titular", banco.Titular);
-                comando.Parameters.AddWithValue("@NumeroDaConta", banco.NumeroDaConta);
-                comando.Parameters.AddWithValue("@Saldo", banco.Saldo);
+                comando.Parameters.AddWithValue("@Titular" , banco.Titular);
+                comando.Parameters.AddWithValue("@NumeroDaConta" , banco.NumeroDaConta);
+                comando.Parameters.AddWithValue("@Saldo" , banco.Saldo);
 
                 conexao.Open();
                 int resultado = comando.ExecuteNonQuery();
@@ -65,15 +65,67 @@ namespace MasterBanco.Classes.Entidades
                     {
                         while (leitura.Read())
                         {
-                            Console.WriteLine($"id: {leitura["id"]}" +
-                                $"Conta: {leitura["numeroDaConta"]}" +
-                                $"Titular: {leitura["titular"]}" +
-                                $"Saldo: {leitura["saldo"]}");
+                            Console.WriteLine($"id: {leitura ["id"]} " +
+                                $"Conta: {leitura ["numeroDaConta"]} " +
+                                $"Titular: {leitura ["titular"]} " +
+                                $"Saldo: {leitura ["saldo"]} ");
                         }
                     }
                 }
             }
         }
+
+        // U Update
+        public static void ModificarConta(int Id, string Titular, int NumeroDaConta, decimal Saldo)
+        {
+            string consulta = "UPDATE Contas SET Titular = @Titular," +
+                " NumeroDaConta = @numeroConta," +
+                " Saldo = @saldo WHERE Id = @id";
+            using (SqlConnection conexao = new SqlConnection(conectarCaminho))
+            using (SqlCommand comando = new SqlCommand(consulta, conexao))
+            {
+                comando.Parameters.AddWithValue("@Id", Id);
+                comando.Parameters.AddWithValue("@Titular", Titular);
+                comando.Parameters.AddWithValue("@numeroConta", NumeroDaConta);
+                comando.Parameters.AddWithValue("@saldo", Saldo);
+
+                conexao.Open();
+                int resultado = comando.ExecuteNonQuery();
+
+                if(resultado > 0)
+                {
+                    Console.WriteLine("Conta atualizada com sucesso");
+
+                }
+                else
+                {
+                    Console.WriteLine("Conta não encontrada");
+                }
+            }
+
+        }
+
+        //D Delete
+        public static void DeletarConta(int id)
+        {
+            string consulta = "DELETE FROM Contas WHERE Id = @id";
+            using (SqlConnection conexao = new SqlConnection(conectarCaminho))
+            using (SqlCommand comando = new SqlCommand(consulta, conexao))
+            {
+                comando.Parameters.AddWithValue("@Id", id);
+                conexao.Open();
+                int resultado = comando.ExecuteNonQuery();
+                if(resultado > 0)
+                {
+                    Console.WriteLine("Conta deletada com sucesso");
+                }
+                else
+                {
+                    Console.WriteLine("Conta não encontrada");
+                }
+            }
+        }
     }
 }
+
 
