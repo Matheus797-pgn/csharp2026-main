@@ -183,4 +183,30 @@ h1:focus {
     justify-content: space-between;
     align-items: center;
 }
+.cadastro-form {
+    padding: 2rem;
+    border: 2px solid rgba(0,0,0, 10%);
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.form-label {
+    padding: 3px;
+}
+
+.btn-cadastro {
+   
+    margin-top:1rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    
+}
+.btn-cadastro:hover{
+    transition: 0.3s;
+    color: red;
+    scale: 1.1;
+}
+
 

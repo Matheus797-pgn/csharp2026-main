@@ -1,40 +1,37 @@
 ﻿@page "/cadastro"
-<CabecalhoPagina/>
-<h3>cadastro</h3>
+<CabecalhoPagina />
 <div class="cadastro-container">
     <h2 class="cadastro-cabecalho">
+        <!--
         <i data-lucide="user-plus" class="cadastro-icone"></i>
-        Novo usuario
+        -->
+        Novo usuário
     </h2>
-
-    <!--Acionar Evento 'submit' no grupo no codigo c# p/ capturar os dados -->
+    <!-- Acionar evento 'submit' no código C# p/ capturar os dados -->
     <form class="cadastro-form">
         <div class="form-grupo">
-        <label class="form-label"> Nome Do Usuario</label>
-        <input typeof="text" class="form-input"/>
-      </div>
+            <label class="form-label">Nome do usuário</label>
+            <input type="text" class="form-input" />
+        </div>
         <div class="form-grupo">
-        <label class="form-label"> RA</label>
-        <input typeof="text" class="form-input"/>
-      </div>
+            <label class="form-label">RA</label>
+            <input type="number" class="form-input" />
+        </div>
         <div class="form-grupo">
-        <label class="form-label"> Nome Do Usuario</label>
-        <input typeof="text" class="form-input"/>
-      </div>
-      <label class="form-label">Curso</label>
-      <select class="form-input">
-          <option value="">Selecione....</option>
-          <option>Desenvolvedor BackEnd</option>
-          <option>Programação em javas</option>
-          <option>Programação em python</option>
-      </select>
+            <label class="form-label">Curso</label>
+            <select class="form-input">
+                <option value="">Selecione...</option>
+                <option>Desenvolvedor BackEnd</option>
+                <option>Programação em Java</option>
+                <option>Fundamentos de Python</option>
+            </select>
+        </div>
+        <button type="submit" class="btn-cadastro">
+            Cadastrar
+        </button>
     </form>
-
-  </div>
-
-
-<Rodape/>
-
+</div>
+<Rodape />
 @code {
 
 }
