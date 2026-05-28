@@ -1,6 +1,14 @@
 using ProjetoWeb1.Components;
+using ProjetoWeb1.Classes.Entidades;
+using ProjetoWeb1.Dados;
+
+using var context = new AlunoContext();
+
+context.Database.EnsureCreated();
 
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

@@ -8,5 +8,5 @@ C:\Users\FIC\Documents\Curso_BackEnd\Desenvolvimento Web\Aula-02\ProjetoWeb1\Pro
 C:\Users\FIC\Documents\Curso_BackEnd\Desenvolvimento Web\Aula-02\ProjetoWeb1\ProjetoWeb1\Components\Layout\ReconnectModal.razor.js
 C:\Users\FIC\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.3\_framework\blazor.web.js
 C:\Users\FIC\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.3\_framework\blazor.server.js
-C:\Users\FIC\Documents\Curso_BackEnd\Desenvolvimento Web\Aula-02\ProjetoWeb1\ProjetoWeb1\wwwroot\app.css
 C:\Users\FIC\Documents\Curso_BackEnd\Desenvolvimento Web\Aula-02\ProjetoWeb1\ProjetoWeb1\wwwroot\StyleLista.css
+C:\Users\FIC\Documents\Curso_BackEnd\Desenvolvimento Web\Aula-02\ProjetoWeb1\ProjetoWeb1\wwwroot\app.css

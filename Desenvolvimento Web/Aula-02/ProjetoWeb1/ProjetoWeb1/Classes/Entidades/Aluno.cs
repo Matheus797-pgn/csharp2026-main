@@ -9,7 +9,7 @@ namespace ProjetoWeb1.Classes.Entidades
 
         public string StatusAction { get; set; } = "aguardando aprovação";
 
-        public Cursos cursoID { get; set; }
+        public int cursoID { get; set; }
 
         public TipoRegra Regra { get; set; } = TipoRegra.Usuario;
     }

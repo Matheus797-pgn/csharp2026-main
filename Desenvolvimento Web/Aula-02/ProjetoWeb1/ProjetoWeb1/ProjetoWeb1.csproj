@@ -21,6 +21,7 @@
   <ItemGroup>
     <Folder Include="Classes\Contratos\" />
     <Folder Include="Classes\serv\" />
+    <Folder Include="Consultas\" />
   </ItemGroup>
 
 </Project>
