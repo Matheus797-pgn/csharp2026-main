@@ -10,8 +10,8 @@
         };
          public Dictionary<int, string> curso
         {
-            get { return curso; }
-            set { curso = value; }
+            get { return cursos; }
+            set { cursos = value; }
         }
     }
 }

@@ -1,5 +1,5 @@
 -- inserir os dados da tabela aluno
-INSERT INTO Alunos(Id, RA, StatusWIFI, StatusAction, Curso, Nome, Email, Senha)
+INSERT INTO Alunos( RA, StatusWIFI, StatusAction, cursoID, Nome, Email, Senha,Regra)
 VALUES
 (123456,'inativo', 'Aguardando aprovação',1, 'Elma', 'elma@aluno.senaisp.br', 'Fic',0),
 (1234567,'inativo', 'Aguardando aprovação',2, 'Flavio', 'flavio@aluno.senaisp.br', 'Fic',0),
