@@ -15,11 +15,20 @@
         -->
         Novo usuário
     </h2>
+    @if (!string.IsNullOrEmpty(mensagem_de_Erro))
+    {
+        <div>@mensagem_de_Erro</div>
+    }
+    @if (!string.IsNullOrEmpty(mensagem_de_sucesso))
+    {
+        <div>@mensagem_de_sucesso</div>
+    }
+
     <!-- Acionar evento 'submit' no código C# p/ capturar os dados -->
-    <form class="cadastro-form">
+    <form class="cadastro-form"@onsubmit="CadastrarAluno">
         <div class="form-grupo">
             <label class="form-label">Nome do usuário</label>
-            <input type="text" class="form-input" />
+            <input type="text" class="form-input" @bind="novoAluno.Nome"/>
         </div>
         <div class="form-grupo">
             <label class="form-label">RA</label>
@@ -29,13 +38,14 @@
             <label class="form-label">Curso</label>
             <select class="form-input">
                 <option value="">Selecione...</option>
-                <option>Desenvolvedor BackEnd</option>
-                <option>Programação em Java</option>
-                <option>Fundamentos de Python</option>
+                @foreach (var cursoItem in cursos.curso)
+                {
+                    <option value="@cursoItem.Key">@cursoItem.Value</option>
+                }
             </select>
         </div>
         <button type="submit" class="btn-cadastro">
-            Cadastrar
+            @(cadastrando ? "Cadastrando....": "cadastrar")
         </button>
     </form>
 </div>
@@ -45,7 +55,7 @@
     private Cursos cursos = new Cursos();
     private Aluno novoAluno = new Aluno();
     private string mensagem_de_Erro = string.Empty;
-    private string menssagem_de_sucesso = string.Empty;
+    private string mensagem_de_sucesso = string.Empty;
     private bool cadastrando = false;
 
     private async Task CadastrarAluno()
@@ -56,7 +66,7 @@
 
             if (resultado.Sucesso)
             {
-                menssagem_de_sucesso = resultado.Mensagem;
+                mensagem_de_sucesso = resultado.Mensagem;
                 await Task.Delay(1000);
                 navigationManager.NavigateTo("/Listadeusuarios");
             }
@@ -65,9 +75,16 @@
                 mensagem_de_Erro = resultado.Mensagem;
             }
         }
-        catch{
-
+        finally
+        {
+            cadastrando = false;
         }
     }
+    protected override void OnInitialized()
+    {
+        novoAluno = new Aluno();
+    }
+
+
 
 }
