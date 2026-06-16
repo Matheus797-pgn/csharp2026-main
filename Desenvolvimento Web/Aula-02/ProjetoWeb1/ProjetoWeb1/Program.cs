@@ -7,6 +7,7 @@ using ProjetoWeb1.Classes.serv;
 
 
 
+
 using var context = new AlunoContext();
 
 context.Database.EnsureCreated();
@@ -19,9 +20,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+//serviçoes da pagina
 builder.Services.AddDbContext<AlunoContext>();
-
 builder.Services.AddScoped<AlunoService>();
+builder.Services.AddScoped<AuthService>();
+
 
 var app = builder.Build();
 
