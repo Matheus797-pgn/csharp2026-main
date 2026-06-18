@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Solução01",
+    "Projects": [
+      {
+        "Path": "..\\AplicativoDesketop01\\AplicativoDesketop01.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ProjetoAPI01\\ProjetoAPI01.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
